@@ -3,7 +3,7 @@ using System.Data;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using MySqlConnector;
+using MySql.Data.MySqlClient;
 
 
 namespace Glihmware.SqlSp

@@ -3,8 +3,7 @@ using System.Data;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-using MySqlConnector;
-
+using MySql.Data.MySqlClient;
 
 namespace Glihmware.SqlSp
 {
@@ -27,7 +26,7 @@ namespace Glihmware.SqlSp
     /// <summary>
     ///   Returns a connection from the given string.
     /// </summary>
-    public static MySqlConnection FromString(string connStr)
+    public static  MySqlConnection FromString(string connStr)
     {
       return new MySqlConnection(connStr);
     }
