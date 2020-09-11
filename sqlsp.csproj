@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Glihmware.Sqlsp</AssemblyName>
+    <RootNamespace>Glihmware.sqlsp</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
